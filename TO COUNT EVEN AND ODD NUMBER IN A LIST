@@ -1,0 +1,10 @@
+n =[1,4,5,2,3,6]
+e_c=0
+o_c=0
+for i in n:
+   if (i%2==0):
+       e_c+=1
+   else:
+      o_c +=1
+print("even numbers:",e_c)
+print("odd numbers:",o_c)
